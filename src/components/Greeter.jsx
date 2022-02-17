@@ -4,7 +4,7 @@ const Greeter = (props) => {
 
   return (
     <div>
-      <h1>`{props.phrase}, {props.name}!`</h1>
+      <h1>{props.phrase}, {props.name}!</h1>
     </div>
   );
 };
