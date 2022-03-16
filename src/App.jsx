@@ -26,9 +26,9 @@ const App = () => {
   } else {
     return (
       <div>
-        <Greeter name="PJ" phrase="Hotdog" />
-        <Greeter name="Alyssa" phrase="Wowee" />
-        <Greeter name="Jimjam" phrase="Shut up" />
+        <Greeter name="PJ" phrase="Hey" />
+        <Greeter name="Alyssa" phrase="Welcome" />
+        <Greeter name="Henry" phrase="Nice one" />
         <input value={username} onChange={(e) => setUsername(e.target.value)} />
         <p>You are logging in as: {username}</p>
         <button onClick={handleToggle}>Toggle</button>
